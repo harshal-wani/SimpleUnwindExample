@@ -39,7 +39,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="To Screen 2"/>
                                 <connections>
-                                    <segue destination="PE6-DO-m5O" kind="presentation" id="czc-sV-lr6"/>
+                                    <segue destination="8Cx-1P-YI6" kind="show" id="LbH-14-o8A"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -55,22 +55,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qCQ-3h-RG4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="48" y="203"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="eFt-Mz-tmB">
-            <objects>
-                <navigationController id="PE6-DO-m5O" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="4IV-9a-6Ae">
-                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="8Cx-1P-YI6" kind="relationship" relationship="rootViewController" id="3vL-yM-lGf"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="y1e-dX-Y1l" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="797" y="656"/>
         </scene>
         <!--Screen 2-->
         <scene sceneID="vTc-DC-rmA">
@@ -107,7 +91,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r2u-jO-IHd" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="m4m-eW-dXf" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1487" y="203"/>
+            <point key="canvasLocation" x="801" y="203"/>
         </scene>
         <!--Screen 3-->
         <scene sceneID="jgL-yE-O6w">
@@ -122,7 +106,7 @@
                     <navigationItem key="navigationItem" title="Screen 3" id="NTv-LD-cSV">
                         <barButtonItem key="rightBarButtonItem" title="Home" id="KQo-8R-KcW">
                             <connections>
-                                <segue destination="Wzr-W2-YUm" kind="unwind" unwindAction="unwindToCancel:" id="ir5-KJ-H2s"/>
+                                <segue destination="Wzr-W2-YUm" kind="unwind" unwindAction="unwindToHome:" id="m7O-Bg-0dX"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -130,7 +114,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kv0-wi-GNR" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="Wzr-W2-YUm" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="2296" y="203"/>
+            <point key="canvasLocation" x="1497" y="203"/>
         </scene>
     </scenes>
 </document>
