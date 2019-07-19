@@ -96,16 +96,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="7MY-Xp-r4z"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Screen 2" id="jPK-Ub-zlP">
-                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="ejb-XM-gek">
-                            <connections>
-                                <segue destination="m4m-eW-dXf" kind="unwind" unwindAction="unwindToCancel:" id="Acb-jP-lia"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Screen 2" id="jPK-Ub-zlP"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r2u-jO-IHd" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <exit id="m4m-eW-dXf" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="801" y="203"/>
         </scene>
