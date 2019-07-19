@@ -2,5 +2,5 @@
 Use unwind segue to navigate back to specific screen
 
 ## Demo
-<img src="simpleUnwindExample.gif" alt="alt text" width="250" height="500">
+<img src="updatedDemoExample.gif" alt="alt text" width="250" height="500">
 
